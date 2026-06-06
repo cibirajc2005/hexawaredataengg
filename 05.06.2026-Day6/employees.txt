@@ -1,0 +1,10 @@
+101,Rahul Sharma,Data Engineering,75000,Hyderabad
+102,Priya Reddy,AI Engineering,85000,Bangalore
+103,Amit Kumar,Data Engineering,65000,Mumbai
+104,Sneha Patel,Data Science,95000,Chennai
+105,Farhan Ali,Cloud Engineering,80000,Delhi
+106,Neha Singh,AI Engineering,72000,Hyderabad
+107,Arjun Verma,Data Engineering,68000,Pune
+108,Meera Nair,Data Science,90000,Bangalore
+109,Kiran Rao,Cloud Engineering,78000,Hyderabad
+110,Ravi Kumar,AI Engineering,82000,Mumbai

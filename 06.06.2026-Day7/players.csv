@@ -1,0 +1,13 @@
+player_id,player_name,team,matches,runs,fours,sixes 
+101,Virat Kohli,RCB,14,741,62,38 
+102,Rohit Sharma,MI,14,560,48,25 
+103,Shubman Gill,GT,14,620,55,28 
+104,KL Rahul,LSG,14,590,50,22 
+105,Ruturaj Gaikwad,CSK,14,610,58,24 
+106,Hardik Pandya,MI,14,430,30,20 
+107,MS Dhoni,CSK,14,280,18,16 
+108,Faf du Plessis,RCB,14,670,60,32 
+109,Sanju Samson,RR,14,550,45,25 
+110,Yashasvi Jaiswal,RR,14,625,57,30
+111,Rinku Singh,KKR,14,480,35,29 
+112,Andre Russell,KKR,14,450,28,35 

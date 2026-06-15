@@ -1,0 +1,32 @@
+1. What is Cloud Computing?
+Cloud computing is a way of using computer resources through the internet whenever we need them, instead of buying and maintaining everything ourselves.
+
+2. Why do people choose Microsoft Azure?
+Many organizations prefer Azure because it is reliable, secure, easy to scale, and works smoothly with other Microsoft products they already use.
+
+3. What is Hosting?
+Hosting means keeping an application or website on a server so that users can access it online at any time.
+
+4. Why do we use Azure for hosting?
+Azure provides servers in different locations around the world, making it easier to run applications without setting up physical infrastructure.
+
+5. Can all applications be run in the same way on the cloud?
+No. The method used depends on the application's requirements, budget, and the amount of control the organization wants.
+
+6. What is IaaS?
+IaaS is a cloud service where the provider gives the basic infrastructure, while users manage the operating system and applications themselves.
+
+7. What is the advantage of IaaS?
+It reduces the need for physical hardware and gives users the flexibility to increase or decrease resources whenever needed.
+
+8. What is PaaS?
+PaaS provides developers with an environment to build and deploy applications without worrying about maintaining servers.
+
+9. Why is PaaS useful?
+It saves time and allows developers to focus more on developing features rather than managing infrastructure.
+
+10. What is SaaS?
+SaaS refers to software that users can access directly through the internet without installing or maintaining it on their own systems.
+
+11. Give examples of SaaS.
+Applications like Gmail, Microsoft 365, and Zoom are examples of SaaS because they can be used online through a subscription or account.

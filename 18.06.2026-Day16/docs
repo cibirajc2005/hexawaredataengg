@@ -1,0 +1,261 @@
+Data Governance and Unity Catalog Overview
+
+What is Data Governance?
+
+Data Governance is a framework of policies, processes, roles, and standards that ensure data is secure, accurate, consistent, and compliant across an organization.
+
+Objectives of Data Governance
+Improve data quality and trustworthiness
+Ensure data security and privacy
+Meet regulatory and compliance requirements
+Enable data discovery and collaboration
+Define ownership and accountability for data assets
+Key Components
+Data Security
+Data Quality
+Metadata Management
+Data Lineage
+Access Control
+Auditing and Monitoring
+Compliance Management
+Unity Catalog Overview
+
+Unity Catalog is Databricks' centralized governance solution that provides unified access control, auditing, lineage, and discovery for data and AI assets across Databricks workspaces.
+
+Features of Unity Catalog
+Centralized access management
+Fine-grained permissions
+Data lineage tracking
+Data discovery and search
+Cross-workspace governance
+Audit logging
+Governance for tables, views, volumes, functions, and ML models
+Unity Catalog Hierarchy
+
+Metastore → Catalog → Schema → Object
+
+Objects can be:
+
+Tables
+Views
+Volumes
+Functions
+Machine Learning Models
+Creating a Unity Catalog Metastore
+Prerequisites
+Databricks Account Admin access
+Cloud storage account configured
+Databricks workspace available
+Steps
+Login to Databricks Account Console.
+Navigate to Data → Metastores.
+Click Create Metastore.
+Enter:
+Metastore Name
+Cloud Region
+Storage Root Location
+Click Create.
+
+Example:
+
+Metastore Name: prod-metastore
+Region: East US
+Storage Root: abfss://unitycatalog@storageaccount.dfs.core.windows.net/
+
+The metastore becomes the top-level container for all Unity Catalog objects.
+
+Enable Databricks Workspace with Unity Catalog
+Assign Workspace to Metastore
+Open Databricks Account Console.
+Select the Metastore.
+Go to Workspaces.
+Click Assign Workspace.
+Select the Databricks workspace.
+Save the assignment.
+
+Once assigned, the workspace can use Unity Catalog-managed data assets.
+
+Verify Unity Catalog
+
+Run:
+
+SELECT CURRENT_METASTORE();
+
+or
+
+SHOW CATALOGS;
+
+You should see catalogs such as:
+
+main
+samples
+system
+
+This confirms Unity Catalog is enabled.
+
+Three-Level Namespace in Unity Catalog
+
+Unity Catalog uses a three-level namespace structure:
+
+Catalog.Schema.Object
+
+Example:
+
+sales.bronze.customers
+
+Components
+1. Catalog
+
+The highest logical container representing a business domain or department.
+
+Examples:
+
+sales
+finance
+marketing
+hr
+2. Schema
+
+A container within a catalog used to organize related data objects.
+
+Examples:
+
+bronze
+silver
+gold
+reporting
+3. Object
+
+Actual data assets stored inside a schema.
+
+Examples:
+
+Tables
+Views
+Volumes
+Functions
+
+Example:
+
+sales.bronze.customers
+
+Where:
+
+sales = Catalog
+bronze = Schema
+customers = Table
+Creating Unity Catalog Objects
+Create Catalog
+
+Creates a top-level business domain.
+
+Example:
+
+CREATE CATALOG sales;
+
+Create Schema
+
+Creates a logical grouping within a catalog.
+
+Example:
+
+CREATE SCHEMA sales.bronze;
+
+Create Table
+
+Creates a managed table.
+
+Example:
+
+CREATE TABLE sales.bronze.customers (
+customer_id INT,
+customer_name STRING,
+city STRING
+);
+
+Create External Table
+
+Stores metadata in Unity Catalog while data remains in external storage.
+
+Example:
+
+CREATE TABLE sales.bronze.orders_ext
+USING DELTA
+LOCATION 'storage-path';
+
+Create View
+
+Creates a virtual table based on a query.
+
+Example:
+
+CREATE VIEW sales.gold.customer_summary AS
+SELECT customer_id,
+SUM(amount) total_sales
+FROM sales.silver.orders
+GROUP BY customer_id;
+
+Create Volume
+
+Used for managing non-tabular files under Unity Catalog governance.
+
+Example:
+
+CREATE VOLUME sales.bronze.raw_files;
+
+Typical use cases:
+
+CSV files
+JSON files
+Images
+PDFs
+ML artifacts
+Create Function
+
+Creates reusable SQL logic.
+
+Example:
+
+CREATE FUNCTION sales.gold.calculate_tax(amount DOUBLE)
+RETURNS DOUBLE
+RETURN amount * 0.18;
+
+Typical Unity Catalog Setup Flow
+Create Metastore
+Assign Workspace to Metastore
+Enable Unity Catalog
+Create Catalog
+Create Schema
+Create Tables, Views, Volumes, and Functions
+Grant Permissions to Users and Groups
+Example End-to-End Structure
+
+Metastore: prod-metastore
+
+Catalog: retail
+
+Schema: bronze
+
+Objects:
+
+customers table
+orders table
+raw_files volume
+customer_view view
+
+Full Namespace Examples:
+
+retail.bronze.customers
+retail.bronze.orders
+retail.bronze.raw_files
+retail.bronze.customer_view
+Benefits of Unity Catalog
+Centralized governance across all workspaces
+Fine-grained access control
+Simplified security management
+Built-in data lineage
+Improved compliance and auditing
+Better data discovery and collaboration
+Consistent governance for data, AI, and analytics assets
+
+In summary, Unity Catalog provides a centralized governance layer in Databricks where a Metastore contains Catalogs, Catalogs contain Schemas, and Schemas contain data objects such as Tables, Views, Volumes, and Functions using the three-level namespace format: Catalog.Schema.Object.

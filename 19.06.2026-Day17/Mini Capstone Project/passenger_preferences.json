@@ -1,0 +1,98 @@
+[
+  {
+    "passenger_name": "Rahul Sharma",
+    "meal": "Veg",
+    "seat": "Window",
+    "extra_baggage": true
+  },
+  {
+    "passenger_name": "Priya Reddy",
+    "meal": "Non-Veg",
+    "seat": "Aisle",
+    "extra_baggage": false
+  },
+  {
+    "passenger_name": "Amit Kumar",
+    "meal": "Veg",
+    "seat": "Middle",
+    "extra_baggage": false
+  },
+  {
+    "passenger_name": "Sneha Patel",
+    "meal": "Jain",
+    "seat": "Window",
+    "extra_baggage": true
+  },
+  {
+    "passenger_name": "Farhan Ali",
+    "meal": "Non-Veg",
+    "seat": "Aisle",
+    "extra_baggage": false
+  },
+  {
+    "passenger_name": "Neha Singh",
+    "meal": "Veg",
+    "seat": "Window",
+    "extra_baggage": true
+  },
+  {
+    "passenger_name": "Arjun Verma",
+    "meal": "Veg",
+    "seat": "Middle",
+    "extra_baggage": false
+  },
+  {
+    "passenger_name": "Meera Nair",
+    "meal": "Jain",
+    "seat": "Window",
+    "extra_baggage": true
+  },
+  {
+    "passenger_name": "Kiran Rao",
+    "meal": "Veg",
+    "seat": "Aisle",
+    "extra_baggage": false
+  },
+  {
+    "passenger_name": "Nisha Reddy",
+    "meal": "Non-Veg",
+    "seat": "Window",
+    "extra_baggage": true
+  },
+  {
+    "passenger_name": "David Thomas",
+    "meal": "Veg",
+    "seat": "Middle",
+    "extra_baggage": false
+  },
+  {
+    "passenger_name": "Ayesha Khan",
+    "meal": "Jain",
+    "seat": "Window",
+    "extra_baggage": true
+  },
+  {
+    "passenger_name": "Rohit Sharma",
+    "meal": "Veg",
+    "seat": "Aisle",
+    "extra_baggage": false
+  },
+  {
+    "passenger_name": "Pooja Mehta",
+    "meal": "Non-Veg",
+    "seat": "Window",
+    "extra_baggage": true
+  },
+  {
+    "passenger_name": "Sanjay Gupta",
+    "meal": "Veg",
+    "seat": "Middle",
+    "extra_baggage": false
+  },
+  {
+    "passenger_name": "Divya Iyer",
+    "meal": "Jain",
+    "seat": "Window",
+    "extra_baggage": true
+  }
+]

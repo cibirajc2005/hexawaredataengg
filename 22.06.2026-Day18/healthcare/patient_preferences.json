@@ -1,0 +1,34 @@
+[
+  {
+    "patient_id": "P101",
+    "preferred_hospital": "Apollo Hospital",
+    "contact": {
+      "phone": "9876500011",
+      "email": "rahul@mail.com"
+    }
+  },
+  {
+    "patient_id": "P102",
+    "preferred_hospital": "Yashoda Hospital",
+    "contact": {
+      "phone": "9876500012",
+      "email": "priya@mail.com"
+    }
+  },
+  {
+    "patient_id": "P104",
+    "preferred_hospital": "Care Hospital",
+    "contact": {
+      "phone": "9876500014",
+      "email": "sneha@mail.com"
+    }
+  },
+  {
+    "patient_id": "P108",
+    "preferred_hospital": "Apollo Hospital",
+    "contact": {
+      "phone": "9876500018",
+      "email": "meera@mail.com"
+    }
+  }
+]

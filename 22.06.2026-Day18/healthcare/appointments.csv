@@ -1,0 +1,11 @@
+appointment_id,patient_id,doctor_id,appointment_date,diagnosis,bill_amount,status
+A1001,P101,D101,2026-06-01,Heart Checkup,5000,Completed
+A1002,P102,D102,2026-06-01,Migraine,3500,Completed
+A1003,P103,D103,2026-06-02,Skin Allergy,2000,Pending
+A1004,P104,D104,2026-06-02,Fracture,12000,Completed
+A1005,P105,D105,2026-06-03,Fever,1500,Completed
+A1006,P106,D106,2026-06-03,Heart Checkup,7000,Completed
+A1007,P107,D101,2026-06-04,Chest Pain,5500,Completed
+A1008,P108,D103,2026-06-04,Skin Infection,2500,Pending
+A1009,P101,D106,2026-06-05,Cardiac Review,6500,Completed
+A1010,P104,D104,2026-06-05,Back Pain,4500,Cancelled

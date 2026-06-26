@@ -1,0 +1,9 @@
+patient_id,patient_name,city,state,age,gender,insurance_status
+P101,Rahul Sharma,Hyderabad,Telangana,35,Male,Active
+P102,Priya Reddy,Bangalore,Karnataka,29,Female,Active
+P103,Amit Kumar,Mumbai,Maharashtra,42,Male,Inactive
+P104,Sneha Patel,Delhi,Delhi,31,Female,Active
+P105,Farhan Ali,Chennai,Tamil Nadu,55,Male,Active
+P106,Neha Singh,Pune,Maharashtra,38,Female,Inactive
+P107,Arjun Verma,Hyderabad,Telangana,26,Male,Active
+P108,Meera Nair,Kochi,Kerala,48,Female,Active

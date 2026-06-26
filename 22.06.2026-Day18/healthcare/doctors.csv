@@ -1,0 +1,7 @@
+doctor_id,doctor_name,department,city,consultation_fee
+D101,Dr. Ramesh,Cardiology,Hyderabad,1500
+D102,Dr. Priya,Neurology,Bangalore,2000
+D103,Dr. Anita,Dermatology,Chennai,1000
+D104,Dr. Suresh,Orthopedics,Mumbai,2500
+D105,Dr. Meera,Pediatrics,Delhi,1200
+D106,Dr. Kiran,Cardiology,Hyderabad,3000

@@ -1,0 +1,34 @@
+[
+  {
+    "customer_id": "C101",
+    "preferred_channel": "Online",
+    "loyalty": {
+      "tier": "Gold",
+      "points": 1200
+    }
+  },
+  {
+    "customer_id": "C102",
+    "preferred_channel": "Store",
+    "loyalty": {
+      "tier": "Silver",
+      "points": 700
+    }
+  },
+  {
+    "customer_id": "C104",
+    "preferred_channel": "Online",
+    "loyalty": {
+      "tier": "Platinum",
+      "points": 2200
+    }
+  },
+  {
+    "customer_id": "C108",
+    "preferred_channel": "Mobile App",
+    "loyalty": {
+      "tier": "Gold",
+      "points": 1500
+    }
+  }
+]

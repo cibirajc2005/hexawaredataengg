@@ -1,0 +1,9 @@
+product_id,product_name,category,unit_price
+P101,Laptop,Electronics,65000
+P102,Mobile,Electronics,25000
+P103,Chair,Furniture,7000
+P104,Table,Furniture,12000
+P105,Shoes,Fashion,4500
+P106,Watch,Fashion,8000
+P107,TV,Electronics,45000
+P108,Bag,Fashion,3000

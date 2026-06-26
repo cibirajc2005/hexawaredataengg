@@ -1,0 +1,9 @@
+customer_id,customer_name,city,state,customer_type
+C101,Rahul Sharma,Hyderabad,Telangana,Premium
+C102,Priya Reddy,Bangalore,Karnataka,Regular
+C103,Amit Kumar,Mumbai,Maharashtra,Regular
+C104,Sneha Patel,Delhi,Delhi,Premium
+C105,Farhan Ali,Chennai,Tamil Nadu,Regular
+C106,Neha Singh,Pune,Maharashtra,Premium
+C107,Arjun Verma,Hyderabad,Telangana,Regular
+C108,Meera Nair,Kochi,Kerala,Premium

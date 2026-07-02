@@ -1,0 +1,16 @@
+product_id,product_name,category,brand,cost_price,selling_price
+P001,Laptop,Electronics,Dell,45000,55000
+P002,Smartphone,Electronics,Samsung,18000,25000
+P003,Headphones,Electronics,Sony,1200,2000
+P004,TShirt,Clothing,Levis,400,800
+P005,Jeans,Clothing,Levis,900,1800
+P006,Sneakers,Footwear,Nike,2000,3500
+P007,Rice,Grocery,IndiaGate,45,60
+P008,Cooking Oil,Grocery,Fortune,110,150
+P009,Chocolate,Food,Cadbury,20,40
+P010,Coffee Powder,Beverages,Nescafe,150,250
+P011,Television,Electronics,LG,25000,32000
+P012,Washing Machine,Electronics,IFB,18000,24000
+P013,Shampoo,PersonalCare,Dove,120,220
+P014,Soap,PersonalCare,Lux,15,30
+P015,Water Bottle,Accessories,Milton,80,150

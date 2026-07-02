@@ -1,0 +1,51 @@
+product_id,sale_id,store_id,sale_date,quantity,discount_percent,product_name,category,brand,cost_price,selling_price
+P011,S026,ST01,2025-01-17,5,8,Television,Electronics,LG,25000,32000
+P002,S047,ST01,2025-01-28,18,5,Smartphone,Electronics,Samsung,18000,25000
+P003,S048,ST02,2025-01-28,40,0,Headphones,Electronics,Sony,1200,2000
+P011,S011,ST01,2025-01-10,4,8,Television,Electronics,LG,25000,32000
+P015,S030,ST02,2025-01-19,60,5,Water Bottle,Accessories,Milton,80,150
+P013,S028,ST03,2025-01-18,80,0,Shampoo,PersonalCare,Dove,120,220
+P008,S038,ST01,2025-01-23,110,3,Cooking Oil,Grocery,Fortune,110,150
+P008,S008,ST01,2025-01-08,90,3,Cooking Oil,Grocery,Fortune,110,150
+P006,S006,ST02,2025-01-07,14,5,Sneakers,Footwear,Nike,2000,3500
+P007,S037,ST03,2025-01-23,140,2,Rice,Grocery,IndiaGate,45,60
+P001,S001,ST01,2025-01-05,5,10,Laptop,Electronics,Dell,45000,55000
+P002,S002,ST01,2025-01-05,12,5,Smartphone,Electronics,Samsung,18000,25000
+P010,S040,ST03,2025-01-24,70,5,Coffee Powder,Beverages,Nescafe,150,250
+P011,S041,ST01,2025-01-25,6,8,Television,Electronics,LG,25000,32000
+P015,S045,ST02,2025-01-27,65,5,Water Bottle,Accessories,Milton,80,150
+P001,S046,ST03,2025-01-27,8,10,Laptop,Electronics,Dell,45000,55000
+P001,S031,ST03,2025-01-20,7,10,Laptop,Electronics,Dell,45000,55000
+P003,S003,ST02,2025-01-06,25,0,Headphones,Electronics,Sony,1200,2000
+P005,S020,ST01,2025-01-14,22,10,Jeans,Clothing,Levis,900,1800
+P012,S042,ST02,2025-01-25,5,10,Washing Machine,Electronics,IFB,18000,24000
+P009,S009,ST02,2025-01-09,150,0,Chocolate,Food,Cadbury,20,40
+P007,S007,ST03,2025-01-08,120,2,Rice,Grocery,IndiaGate,45,60
+P003,S033,ST02,2025-01-21,35,0,Headphones,Electronics,Sony,1200,2000
+P010,S025,ST03,2025-01-17,65,5,Coffee Powder,Beverages,Nescafe,150,250
+P004,S019,ST03,2025-01-14,50,20,TShirt,Clothing,Levis,400,800
+P004,S034,ST03,2025-01-21,55,15,TShirt,Clothing,Levis,400,800
+P010,S010,ST03,2025-01-09,60,5,Coffee Powder,Beverages,Nescafe,150,250
+P005,S005,ST01,2025-01-07,18,10,Jeans,Clothing,Levis,900,1800
+P014,S014,ST01,2025-01-11,200,0,Soap,PersonalCare,Lux,15,30
+P014,S029,ST01,2025-01-19,210,0,Soap,PersonalCare,Lux,15,30
+P004,S049,ST03,2025-01-29,60,15,TShirt,Clothing,Levis,400,800
+P006,S021,ST02,2025-01-15,16,5,Sneakers,Footwear,Nike,2000,3500
+P002,S017,ST01,2025-01-13,10,5,Smartphone,Electronics,Samsung,18000,25000
+P001,S016,ST03,2025-01-12,6,12,Laptop,Electronics,Dell,45000,55000
+P014,S044,ST01,2025-01-26,220,0,Soap,PersonalCare,Lux,15,30
+P009,S039,ST02,2025-01-24,180,0,Chocolate,Food,Cadbury,20,40
+P013,S043,ST03,2025-01-26,90,0,Shampoo,PersonalCare,Dove,120,220
+P007,S022,ST03,2025-01-15,130,2,Rice,Grocery,IndiaGate,45,60
+P004,S004,ST03,2025-01-06,40,15,TShirt,Clothing,Levis,400,800
+P012,S012,ST02,2025-01-10,3,10,Washing Machine,Electronics,IFB,18000,24000
+P009,S024,ST02,2025-01-16,170,0,Chocolate,Food,Cadbury,20,40
+P002,S032,ST01,2025-01-20,15,5,Smartphone,Electronics,Samsung,18000,25000
+P008,S023,ST01,2025-01-16,100,3,Cooking Oil,Grocery,Fortune,110,150
+P012,S027,ST02,2025-01-18,4,10,Washing Machine,Electronics,IFB,18000,24000
+P015,S015,ST02,2025-01-12,55,5,Water Bottle,Accessories,Milton,80,150
+P006,S036,ST02,2025-01-22,18,5,Sneakers,Footwear,Nike,2000,3500
+P005,S050,ST01,2025-01-29,28,10,Jeans,Clothing,Levis,900,1800
+P013,S013,ST03,2025-01-11,70,0,Shampoo,PersonalCare,Dove,120,220
+P005,S035,ST01,2025-01-22,25,10,Jeans,Clothing,Levis,900,1800
+P003,S018,ST02,2025-01-13,30,0,Headphones,Electronics,Sony,1200,2000

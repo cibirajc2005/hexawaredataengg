@@ -1,0 +1,16 @@
+product_name,category,units_sold,revenue,profit
+Water Bottle,Accessories,180,25650,11250
+TShirt,Clothing,205,137400,55400
+Laptop,Electronics,26,1280400,110400
+Television,Electronics,15,441600,66600
+Smartphone,Electronics,55,1306250,316250
+Coffee Powder,Beverages,195,46312.5,17062.5
+Sneakers,Footwear,48,159600,63600
+Soap,PersonalCare,630,18900,9450
+Chocolate,Food,500,20000,10000
+Cooking Oil,Grocery,300,43650,10650
+Jeans,Clothing,93,150660,66960
+Headphones,Electronics,130,260000,104000
+Shampoo,PersonalCare,240,52800,24000
+Washing Machine,Electronics,12,259200,43200
+Rice,Grocery,390,22932,5382

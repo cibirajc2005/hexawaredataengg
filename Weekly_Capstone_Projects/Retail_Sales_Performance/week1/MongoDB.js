@@ -1,14 +1,7 @@
-// DATABASE
 use RetailSalesDB
- 
-// campaign_feedback COLLECTION
+
 db.createCollection("campaign_feedback")
 
-// CRUD
-
-// CREATE
-
-// 1
 db.campaign_feedback.insertOne({
     feedback_id: 1,
     customer_name: "Rahul Sharma",
@@ -21,7 +14,6 @@ db.campaign_feedback.insertOne({
     feedback_date: new Date("2026-06-13")
 })
 
-// 2
 db.campaign_feedback.insertMany([
 {
     feedback_id: 3,
@@ -45,7 +37,6 @@ db.campaign_feedback.insertMany([
 }
 ])
 
-// 3
 db.campaign_feedback.insertOne({
     feedback_id: 4,
     customer_name: "Arun",
@@ -55,14 +46,12 @@ db.campaign_feedback.insertOne({
     }
 })
 
-// 4
 db.campaign_feedback.insertOne({
     feedback_id: 5,
     customer_name: "Deepa",
     tags: ["discount","electronics","summer"]
 })
 
-// 5
 var doc = {
     feedback_id: 6,
     customer_name: "Siva",
@@ -70,7 +59,6 @@ var doc = {
 }
 db.campaign_feedback.insertOne(doc)
 
-// 6
 db.campaign_feedback.bulkWrite([
 {
 insertOne:{
@@ -90,12 +78,8 @@ customer_name:"Vijay"
 }
 ])
 
-// READ
-
-// 1
 db.campaign_feedback.find()
 
-// 2
 db.campaign_feedback.find(
 {},
 {
@@ -105,19 +89,15 @@ _id:0
 }
 )
 
-// 3
 db.campaign_feedback.find({
 rating:{$gte:4},
 region:"South"
 })
 
-// 4
 db.campaign_feedback.find().sort({rating:-1})
 
-// 5
 db.campaign_feedback.find().sort({rating:-1}).limit(5)
 
-// 6
 db.campaign_feedback.aggregate([
 {
 $group:{
@@ -129,39 +109,31 @@ $avg:"$rating"
 }
 ])
 
-// UPDATE
-
-// 1
 db.campaign_feedback.updateOne(
 {feedback_id:1},
 {$set:{rating:4}}
 )
 
-// 2
 db.campaign_feedback.updateMany(
 {region:"South"},
 {$set:{campaign_name:"Mega Sale"}}
 )
 
-// 3
 db.campaign_feedback.updateOne(
 {feedback_id:2},
 {$inc:{rating:1}}
 )
 
-// 4
 db.campaign_feedback.updateMany(
 {},
 {$rename:{"feedback":"customer_feedback"}}
 )
 
-// 5
 db.campaign_feedback.updateOne(
 {feedback_id:5},
 {$push:{tags:"offers"}}
 )
 
-// 6
 db.campaign_feedback.updateOne(
 {feedback_id:20},
 {
@@ -175,52 +147,39 @@ upsert:true
 }
 )
 
-// DELETE
-
-// 1
 db.campaign_feedback.deleteOne(
 {feedback_id:8}
 )
 
-// 2
 db.campaign_feedback.deleteMany(
 {rating:{$lt:2}}
 )
 
-// 3
 db.campaign_feedback.deleteMany(
 {region:"West"}
 )
 
-// 4
 db.campaign_feedback.deleteMany({
 rating:1,
 region:"North"
 })
 
-// 5
 db.campaign_feedback.deleteMany({})
 
-// 6
 db.campaign_feedback.drop()
 
-// INDEXES
-
-// 1
 db.campaign_feedback.createIndex(
 {
 product_id:1
 }
 )
 
-// 2
 db.campaign_feedback.createIndex(
 {
 region:1
 }
 )
 
-// 3
 db.campaign_feedback.createIndex(
 {
 product_id:1,
@@ -228,7 +187,6 @@ region:1
 }
 )
 
-// 4
 db.campaign_feedback.createIndex(
 {
 feedback_id:1
@@ -238,12 +196,10 @@ unique:true
 }
 )
 
-// 5
 db.campaign_feedback.createIndex(
 {
 feedback:"text"
 }
 )
 
-// 6
 db.campaign_feedback.getIndexes()

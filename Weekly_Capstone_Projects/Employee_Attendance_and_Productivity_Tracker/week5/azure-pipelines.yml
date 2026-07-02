@@ -1,0 +1,32 @@
+trigger: none
+
+schedules:
+- cron: "0 6 * * 1"
+  displayName: Weekly Monday Attendance Run
+  branches:
+    include:
+    - main
+  always: true
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.10'
+    addToPath: true
+
+- script: |
+    pip install pandas numpy
+  displayName: 'Install dependencies'
+
+- script: |
+    python generate_weekly_report.py
+  displayName: 'Run weekly attendance and productivity report'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: 'weekly_report.csv'
+    ArtifactName: 'AttendanceReport'
+    publishLocation: 'Container'
